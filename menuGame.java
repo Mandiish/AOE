@@ -13,8 +13,7 @@ class menuGame
     {
         this.b = b;
         this.s = s;
-        this.p = p;   
-        this.tribe = tribe;        
+        this.p = p;
         ValidGame(tribe);
     }
     
@@ -24,7 +23,7 @@ class menuGame
         tribe = sc.nextInt();
         if (tribe == 1 || tribe == 2 || tribe ==  3)
         {
-            topo = new Topography(b, s, p, tribe);
+            this.topo = new Topography(b, s, p, tribe);
             return true;
         }
         
