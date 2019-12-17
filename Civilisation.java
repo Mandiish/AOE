@@ -1,5 +1,6 @@
+import java.util.*;
 
-public class Civilisation {
+class Civilisation {
 
     private String francais; 
     private String anglais;

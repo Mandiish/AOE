@@ -1,8 +1,10 @@
-public class Gens {
+import java.util.*;
 
-        private String pecheur; 
-        private String chasseur;
-        private String cueilleur;
+class Gens {
+
+    private String pecheur; 
+    private String chasseur;
+    private String cueilleur;
 
     public Gens(String pecheur, String chasseur, String cueilleur) {
         this.pecheur = pecheur;
