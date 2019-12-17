@@ -1,4 +1,6 @@
-public class Nourriture {
+import java.util.*;
+
+class Nourriture {
 
     private String vegetaux; 
     private String viandes;
@@ -13,7 +15,7 @@ public class Nourriture {
     }
 
     public String getVegetaux() {
-        return vegetaux;
+        return this.vegetaux;
     }
 
     public void setVegetaux(String vegetaux) {
@@ -21,7 +23,7 @@ public class Nourriture {
     }
 
     public String getViande() {
-        return viande;
+        return this.viande;
     }
 
     public void setViande(String viande) {
@@ -29,7 +31,7 @@ public class Nourriture {
     }
 
     public String getPoisson() {
-        return poisson;
+        return this.poisson;
     }
 
     public void setPoisson(String poisson) {
@@ -37,7 +39,7 @@ public class Nourriture {
     }
 
     public String getAlcool() {
-        return alcool;
+        return this.alcool;
     }
 
     public void setAlcool(String alcool) {

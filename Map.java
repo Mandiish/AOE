@@ -1,13 +1,11 @@
 import java.util.*;
 
-class Map extends Topography
+class Map
 {
     private int[][] map = new int[4][4];
-    private Topography topo;
     
     public Map()
     {
-        topo = new Topography();
         this.map = map;
     }
     
@@ -16,7 +14,7 @@ class Map extends Topography
         String M = "";
         for(int i = 0; i < topo.length; i++)
         {
-            map[i] = topo[i];
+            map[i] = i;
             M += "[" + map[i] + "]";
         }
         return M;

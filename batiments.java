@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class batiments 
+class batiments 
 {
     private String wood;
     private String stone;
