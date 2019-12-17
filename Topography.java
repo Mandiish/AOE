@@ -18,7 +18,6 @@ class Topography
         this.s = s;
         this.p = p;     
         this.tribe = tribe;
-        this.topo = topo;
         waterSide(tribe, b);
         mountainSide(tribe, s);
         dryLand(tribe, p);
@@ -28,7 +27,6 @@ class Topography
     {
         Random r = new Random();
         String fin = "";
-        this.topo = topo;
         
         for(int i = 0; i < topo.length; i++)
         {
@@ -46,7 +44,6 @@ class Topography
             this.mountain = 0;
             this.green = 8;
             this.soil = 3;
-            this.topo = topo;
             System.out.println("You chose " + b + ".");
             gen(water, mountain, green, soil);
         }
@@ -60,7 +57,6 @@ class Topography
             this.mountain = 8;
             this.green = 6;
             this.soil = 0;
-            this.topo = topo;
             System.out.println("You chose " + s + ".");
             gen(water, mountain, green, soil);
         }
@@ -74,7 +70,6 @@ class Topography
             this.mountain = 4;
             this.green = 4;
             this.soil = 8;
-            this.topo = topo;
             System.out.println("You chose " + p + ".");
             gen(water, mountain, green, soil);
         }
